@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AssignmentTwo : MonoBehaviour {
-
+//class is an object classification
+//You must have open and closed {} per object
+public class AssignmentTwo : MarioKart {
+	
+//void is a function that is void or empty or null
 	// Use this for initialization
-	void Start () {
+	void Driving () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Boosting () {
 		
 	}
 }
