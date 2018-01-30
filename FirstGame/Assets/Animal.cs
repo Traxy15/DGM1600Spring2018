@@ -6,7 +6,8 @@ public class Animal : MonoBehaviour {
 
 	public bool Key = false;
 	public bool Inventory = false;
-	public bool 
+	public bool Switch = false;
+	public bool Electric =  false;
 
 	void OnMouseDown()
 	{
@@ -16,6 +17,14 @@ public class Animal : MonoBehaviour {
 
 		if(Inventory == true){
 			print ("You've collected the gas can");
+		}
+
+		if(Switch == true){
+			print("Radio is on");
+		}
+
+		if(Electric == true){
+			print("Lights are on");
 		}
 	}
 
