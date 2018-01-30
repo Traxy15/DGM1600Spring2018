@@ -11,6 +11,7 @@ public class Animal : MonoBehaviour {
 		print("Now my animal is sleeping.");
 		print("I love my cat");
 		print("oiejlsijf");
+		print("I'm a silly princess");
 	}
 	void OnMouseDown()
 	{
