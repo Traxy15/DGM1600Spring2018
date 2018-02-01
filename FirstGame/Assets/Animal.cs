@@ -8,8 +8,7 @@ public class Animal : MonoBehaviour {
 	public bool Inventory = false;
 	public bool Switch = false;
 	public bool Electric =  false;
-	public bool Health = 100;
-	public bool Password = "OU812";
+
 
 	void OnMouseDown()
 	{
@@ -29,21 +28,7 @@ public class Animal : MonoBehaviour {
 			print("Lights are on");
 		}
 
-		if(Health > 0){
-			print("Can Play")
-		}
-		else
-		{
-			print("You're Dead.")
-		}
 
-		if(Password == "OU812"){
-			print("That's Correct!");
-		}
-		else
-		{
-			print("Nice Try Sucker!");
-		}
 
 	}
 
