@@ -26,10 +26,10 @@ public class NumberWizard : MonoBehaviour {
 
 		if (Input.GetKeyDown(KeyCode.UpArrow)) {
 			Debug.Log("Up arrow pressed");
-		}
-
-		if (Input.GetKeyDown(KeyCode.DownArrow)) {
+		} else if (Input.GetKeyDown(KeyCode.DownArrow)) {
 			Debug.Log("Down arrow pressed");
+		} else if (Input.GetKeyDown(KeyCode.Return)) {
+			Debug.Log("I win!");
 		}
 
 		
