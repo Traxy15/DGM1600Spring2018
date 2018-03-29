@@ -25,7 +25,7 @@ public class Loops : MonoBehaviour {
 				Debug.Log("Order number " + s + " is up!");
 			}
 		
-		for (int u = 25; u < powerUp; u++)
+		for (int u = 25 - 1; u < powerUp; --u)
 			{
 				Debug.Log("Losing " + u + " health!");
 			}
