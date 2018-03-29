@@ -8,6 +8,12 @@ public class Loops : MonoBehaviour {
 	int pizzaSlice = 12;
 	int servedSmoothies = 5;
 	int powerUp = 50;
+	int scoredGoal = 6;
+	int yardsSwam = 100;
+	int headShots = 3;
+	int pushUps = 10;
+	int carsCrashed = 4;
+	int bridesMaids = 7;
 
 	void Start () {
 		for (int i = 0; i < numEnemies; i++)
@@ -25,11 +31,34 @@ public class Loops : MonoBehaviour {
 				Debug.Log("Order number " + s + " is up!");
 			}
 		
-		for (int u = 25 - 1; u < powerUp; --u)
+		for (int u = 25; u < powerUp; u++)
 			{
 				Debug.Log("Losing " + u + " health!");
 			}
+		for (int g = 0; g < scoredGoal; g++)
+			{
+				Debug.Log("You scored " + g + " goals!!");
+			}
+		for (int y = 50; y < yardsSwam; y++)
+			{
+				Debug.Log("Just Keep Swimming. You've gone " + y + " yards!");
+			}
+		for (int h = 0; h < headShots; h++)
+			{
+				Debug.Log("Got Em! " + h);
+			}
+		for (int w = 0; w < pushUps; w++)
+			{
+				Debug.Log("one thousand and " + w + " !");
+			}
+		for (int c = 0; c < carsCrashed; c++)
+			{
+				Debug.Log("EEEEEEEEERRRRRK. You crashed " + c + " cars!");
+			}
+		for (int m = 1; m < bridesMaids; m++)
+			{
+				Debug.Log("Woah you have " + m + " brides maids!!??");
+			}
 	}
-	
 
 }
