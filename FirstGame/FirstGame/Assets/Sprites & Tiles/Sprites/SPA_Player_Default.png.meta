@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 188893eef2099478fa9e9c54a4995288
-timeCreated: 1525207045
+timeCreated: 1525209096
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -112,10 +112,10 @@ TextureImporter:
       name: SPA_Player_Default_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 196
-        width: 32
-        height: 32
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,10 +126,10 @@ TextureImporter:
       name: SPA_Player_Default_1
       rect:
         serializedVersion: 2
-        x: 38
+        x: 44
         y: 196
-        width: 32
-        height: 32
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,10 +140,10 @@ TextureImporter:
       name: SPA_Player_Default_2
       rect:
         serializedVersion: 2
-        x: 76
+        x: 80
         y: 196
-        width: 32
-        height: 32
+        width: 24
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,10 +154,10 @@ TextureImporter:
       name: SPA_Player_Default_3
       rect:
         serializedVersion: 2
-        x: 114
+        x: 118
         y: 196
-        width: 32
-        height: 32
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,10 +168,10 @@ TextureImporter:
       name: SPA_Player_Default_4
       rect:
         serializedVersion: 2
-        x: 152
+        x: 154
         y: 196
-        width: 32
-        height: 32
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: SPA_Player_Default_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 158
-        width: 32
-        height: 32
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: SPA_Player_Default_6
       rect:
         serializedVersion: 2
-        x: 38
+        x: 40
         y: 158
-        width: 32
-        height: 32
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,10 +210,10 @@ TextureImporter:
       name: SPA_Player_Default_7
       rect:
         serializedVersion: 2
-        x: 76
+        x: 80
         y: 158
-        width: 32
-        height: 32
+        width: 22
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,10 +224,10 @@ TextureImporter:
       name: SPA_Player_Default_8
       rect:
         serializedVersion: 2
-        x: 114
+        x: 118
         y: 158
-        width: 32
-        height: 32
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: SPA_Player_Default_9
       rect:
         serializedVersion: 2
-        x: 0
+        x: 8
         y: 120
-        width: 32
-        height: 32
+        width: 22
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,10 +252,10 @@ TextureImporter:
       name: SPA_Player_Default_10
       rect:
         serializedVersion: 2
-        x: 38
-        y: 120
-        width: 32
-        height: 32
+        x: 44
+        y: 122
+        width: 22
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,10 +266,10 @@ TextureImporter:
       name: SPA_Player_Default_11
       rect:
         serializedVersion: 2
-        x: 76
-        y: 120
-        width: 32
-        height: 32
+        x: 82
+        y: 122
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: SPA_Player_Default_12
       rect:
         serializedVersion: 2
-        x: 114
-        y: 120
-        width: 32
-        height: 32
+        x: 118
+        y: 122
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,10 +294,10 @@ TextureImporter:
       name: SPA_Player_Default_13
       rect:
         serializedVersion: 2
-        x: 152
+        x: 156
         y: 120
-        width: 32
-        height: 32
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,10 +308,10 @@ TextureImporter:
       name: SPA_Player_Default_14
       rect:
         serializedVersion: 2
-        x: 0
+        x: 6
         y: 82
-        width: 32
-        height: 32
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,10 +322,10 @@ TextureImporter:
       name: SPA_Player_Default_15
       rect:
         serializedVersion: 2
-        x: 38
+        x: 44
         y: 82
-        width: 32
-        height: 32
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: SPA_Player_Default_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 44
-        width: 32
-        height: 32
+        x: 4
+        y: 48
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,10 +350,10 @@ TextureImporter:
       name: SPA_Player_Default_17
       rect:
         serializedVersion: 2
-        x: 38
-        y: 44
-        width: 32
-        height: 32
+        x: 40
+        y: 48
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: SPA_Player_Default_18
       rect:
         serializedVersion: 2
-        x: 76
-        y: 44
-        width: 32
-        height: 32
+        x: 88
+        y: 48
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +378,10 @@ TextureImporter:
       name: SPA_Player_Default_19
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 6
-        width: 32
-        height: 32
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: SPA_Player_Default_20
       rect:
         serializedVersion: 2
-        x: 38
+        x: 44
         y: 6
-        width: 32
-        height: 32
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: SPA_Player_Default_21
       rect:
         serializedVersion: 2
-        x: 76
-        y: 6
-        width: 32
-        height: 32
+        x: 82
+        y: 8
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +420,10 @@ TextureImporter:
       name: SPA_Player_Default_22
       rect:
         serializedVersion: 2
-        x: 114
-        y: 6
-        width: 32
-        height: 32
+        x: 120
+        y: 10
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +434,10 @@ TextureImporter:
       name: SPA_Player_Default_23
       rect:
         serializedVersion: 2
-        x: 152
-        y: 6
-        width: 32
-        height: 32
+        x: 158
+        y: 8
+        width: 20
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: SPA_Player_Default_24
       rect:
         serializedVersion: 2
-        x: 190
-        y: 6
-        width: 32
-        height: 32
+        x: 194
+        y: 8
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,10 +462,10 @@ TextureImporter:
       name: SPA_Player_Default_25
       rect:
         serializedVersion: 2
-        x: 228
-        y: 6
-        width: 32
-        height: 32
+        x: 230
+        y: 8
+        width: 24
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -476,10 +476,10 @@ TextureImporter:
       name: SPA_Player_Default_26
       rect:
         serializedVersion: 2
-        x: 266
-        y: 6
-        width: 32
-        height: 32
+        x: 268
+        y: 12
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,24 @@ TextureImporter:
       name: SPA_Player_Default_27
       rect:
         serializedVersion: 2
-        x: 304
-        y: 6
-        width: 32
-        height: 32
+        x: 306
+        y: 12
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SPA_Player_Default_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 10
+        width: 24
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
