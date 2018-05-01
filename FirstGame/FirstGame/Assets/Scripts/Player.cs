@@ -17,6 +17,7 @@ Rigidbody2D myRigidBody;
 	// Update is called once per frame
 	void Update () {
 		Run();
+		FlipSprite();
 	}
 
 	private void Run() {
@@ -29,7 +30,10 @@ Rigidbody2D myRigidBody;
 	private void FlipSprite()
 	{
 		//if player is moving horizontally
+		bool playerHasHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+		if (playerHasHorizontalSpeed)
 		{ 
+			transform.localScale = new Vector2 (Mathf.Sign(myRigidBody.velocity.x), 1f);
 			//reverse the current scaling of x axis
 		}
 	}
