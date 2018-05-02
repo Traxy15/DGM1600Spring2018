@@ -17,21 +17,23 @@ bool isAlive = true;
 Rigidbody2D myRigidBody;
 Animator myAnimator;
 Collider2D myCollider2D;
+float gravityScaleAtStart;
 
 	// message then methods
 	void Start () {
 		myRigidBody = GetComponent<Rigidbody2D>();
 		myAnimator = GetComponent<Animator>();
 		myCollider2D = GetComponent<Collider2D>();
-	
+		gravityScaleAtStart = myRigidBody.gravityScale;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		Run();
-		FlipSprite();
-		Jump();
 		ClimbLadder();
+		Jump();
+		FlipSprite();
+		
 	}
 
 	private void Run() {
@@ -47,11 +49,19 @@ Collider2D myCollider2D;
 	private void ClimbLadder() {
 
 		if(!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing")))
-		{return;}
+		{
+			myAnimator.SetBool("Climbing", false);
+			myRigidBody.gravityScale = gravityScaleAtStart;
+		return;
+		}
 
 		float controlThrow = CrossPlatformInputManager.GetAxis("Vertical");
 		Vector2 climbVelocity = new Vector2(myRigidBody.velocity.x, controlThrow * climbSpeed);
 		myRigidBody.velocity = climbVelocity;
+		myRigidBody.gravityScale = 0f;
+
+		bool playerHasVerticalSpeed = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
+		myAnimator.SetBool("Climbing", playerHasVerticalSpeed);
 	}
 
 	private void Jump()
