@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	[Tooltip("In m")][SerializeField] float yRange = 3f;
 
 	[SerializeField] float positionPitchFactor = -5f;
-	[SerializeField] float controlPitchFactor = -30f;
+	[SerializeField] float controlPitchFactor = -20f;
 
 	[SerializeField] float positionYawFactor = 5f;
 	[SerializeField] float controlRollFactor = -20f;
