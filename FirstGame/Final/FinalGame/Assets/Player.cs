@@ -5,10 +5,11 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class Player : MonoBehaviour {
 
-	[Tooltip("In ms^-1")][SerializeField] float speed = 4f;
+	[Tooltip("In ms^-1")][SerializeField] float speed = 20f;
 	[Tooltip("In m")][SerializeField] float xRange = 5f;
 	[Tooltip("In m")][SerializeField] float yRange = 3f;
 
+	[SerializeField] float positionPitchFactor = -5f;
 
 	void Start () {
 		
@@ -17,6 +18,20 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		ProcessTranslation();
+		ProcessRotation();
+	}
+ 
+ private void ProcessRotation()
+ {
+	 float pitch = transform.localPosition.y * positionPitchFactor;
+	 float yaw = 0f;
+	 float roll = 0f;
+
+	 transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+ }
+	private void ProcessTranslation()
+	{	
 		float xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
 		float yThrow = CrossPlatformInputManager.GetAxis("Vertical");
 
