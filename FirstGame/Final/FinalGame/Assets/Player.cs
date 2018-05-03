@@ -13,7 +13,7 @@ public class Player : MonoBehaviour {
 	[SerializeField] float controlPitchFactor = -30f;
 
 	[SerializeField] float positionYawFactor = 5f;
-	[SerializeField] float controlRollFactor = 5f;
+	[SerializeField] float controlRollFactor = -20f;
 
 	float xThrow, yThrow;
 
@@ -41,8 +41,8 @@ public class Player : MonoBehaviour {
  }
 	private void ProcessTranslation()
 	{	
-		float xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
-		float yThrow = CrossPlatformInputManager.GetAxis("Vertical");
+		xThrow = CrossPlatformInputManager.GetAxis("Horizontal");
+		yThrow = CrossPlatformInputManager.GetAxis("Vertical");
 
 		float xOffset = xThrow * speed * Time.deltaTime;
 		float yOffset = yThrow * speed * Time.deltaTime;
