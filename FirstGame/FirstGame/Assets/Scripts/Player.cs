@@ -16,15 +16,17 @@ bool isAlive = true;
 // Cached component references
 Rigidbody2D myRigidBody;
 Animator myAnimator;
-Collider2D myCollider2D;
+CapsuleCollider2D myBodyCollider;
+BoxCollider2D myFeet;
 float gravityScaleAtStart;
 
 	// message then methods
 	void Start () {
 		myRigidBody = GetComponent<Rigidbody2D>();
 		myAnimator = GetComponent<Animator>();
-		myCollider2D = GetComponent<Collider2D>();
+		myBodyCollider = GetComponent<CapsuleCollider2D>();
 		gravityScaleAtStart = myRigidBody.gravityScale;
+		myFeet = GetComponent<BoxCollider2D>();
 	}
 	
 	// Update is called once per frame
@@ -48,7 +50,7 @@ float gravityScaleAtStart;
 
 	private void ClimbLadder() {
 
-		if(!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+		if(!myFeet.IsTouchingLayers(LayerMask.GetMask("Climbing")))
 		{
 			myAnimator.SetBool("Climbing", false);
 			myRigidBody.gravityScale = gravityScaleAtStart;
@@ -66,7 +68,7 @@ float gravityScaleAtStart;
 
 	private void Jump()
 	{
-		if(!myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+		if(!myFeet.IsTouchingLayers(LayerMask.GetMask("Ground")))
 		{
 			return;
 		}
