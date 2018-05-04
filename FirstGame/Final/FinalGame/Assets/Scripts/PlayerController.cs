@@ -3,16 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour {
+public class PlayerController : MonoBehaviour {
+
+	[Header("General")]
 
 	[Tooltip("In ms^-1")][SerializeField] float speed = 20f;
 	[Tooltip("In m")][SerializeField] float xRange = 5f;
 	[Tooltip("In m")][SerializeField] float yRange = 3f;
 
+[Header("Screen-throw Based")]
 	[SerializeField] float positionPitchFactor = -5f;
-	[SerializeField] float controlPitchFactor = -20f;
-
 	[SerializeField] float positionYawFactor = 5f;
+	
+[Header("Screen-position Based")]
+	[SerializeField] float controlPitchFactor = -20f;
 	[SerializeField] float controlRollFactor = -20f;
 
 	float xThrow, yThrow;
@@ -21,9 +25,7 @@ public class Player : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter(Collider other) {
-		print("Player triggered somethings");
-	}
+	
 
 	// Update is called once per frame
 	void Update () {
