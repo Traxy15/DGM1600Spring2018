@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 	[Tooltip("In ms^-1")][SerializeField] float controlSpeed = 20f;
 	[Tooltip("In m")][SerializeField] float xRange = 5f;
 	[Tooltip("In m")][SerializeField] float yRange = 3f;
+	[SerializeField] GameObject[] guns;
 
 [Header("Screen-throw Based")]
 	[SerializeField] float positionPitchFactor = -5f;
@@ -72,5 +73,8 @@ public class PlayerController : MonoBehaviour {
 	void ProcessFiring()
 	{
 		if (CrossPlatformInputManager.GetButton("Fire"))
+		{
+			
+		}
 	}
 }
