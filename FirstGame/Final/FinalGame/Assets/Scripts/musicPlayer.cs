@@ -9,7 +9,7 @@ public class musicPlayer : MonoBehaviour {
 	{
 
 		int numMusicPlayers = FindObjectsOfType<musicPlayer>().Length;
-		if (numMusicPlayer > 1)
+		if (numMusicPlayers > 1)
 			{
 				Destroy(gameObject);
 			}
