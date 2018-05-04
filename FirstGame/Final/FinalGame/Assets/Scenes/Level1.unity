@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.11931487, g: 0.1547136, b: 0.11833497, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -137,6 +137,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 35
+  healthPoints: 100
+  hits: 10
 --- !u!1 &184718081 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1090395654553690, guid: e14d375f5a36551479fc2f172353b1ba,
@@ -156,6 +158,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 35
+  healthPoints: 100
+  hits: 10
 --- !u!1001 &218270930
 Prefab:
   m_ObjectHideFlags: 0
@@ -249,6 +253,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 200
+  healthPoints: 100
+  hits: 10
 --- !u!1001 &442779125
 Prefab:
   m_ObjectHideFlags: 0
@@ -651,6 +657,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 200
+  healthPoints: 100
+  hits: 10
 --- !u!1 &788672842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4339,6 +4347,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 35
+  healthPoints: 100
+  hits: 10
 --- !u!1001 &897495225
 Prefab:
   m_ObjectHideFlags: 0
@@ -4751,6 +4761,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 200
+  healthPoints: 100
+  hits: 10
 --- !u!1 &1312918738
 GameObject:
   m_ObjectHideFlags: 0
@@ -5129,6 +5141,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 200
+  healthPoints: 100
+  hits: 10
 --- !u!1001 &1844440261
 Prefab:
   m_ObjectHideFlags: 0
@@ -5210,6 +5224,8 @@ MonoBehaviour:
   deathFX: {fileID: 1200820804443260, guid: 1d1c133c640d747308f4e7874a734261, type: 2}
   parent: {fileID: 1153087448}
   scorePerHit: 35
+  healthPoints: 100
+  hits: 10
 --- !u!1001 &1932027621
 Prefab:
   m_ObjectHideFlags: 0
