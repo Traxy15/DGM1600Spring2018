@@ -122,15 +122,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4019960146099556, guid: b7e8cb5e6163341a8b875b4d46d69a82, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 95.4
+      value: 94.3
       objectReference: {fileID: 0}
     - target: {fileID: 4019960146099556, guid: b7e8cb5e6163341a8b875b4d46d69a82, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 78.6
+      value: 72.8
       objectReference: {fileID: 0}
     - target: {fileID: 4019960146099556, guid: b7e8cb5e6163341a8b875b4d46d69a82, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 344
+      value: 343.7
       objectReference: {fileID: 0}
     - target: {fileID: 4019960146099556, guid: b7e8cb5e6163341a8b875b4d46d69a82, type: 2}
       propertyPath: m_LocalRotation.x
@@ -555,7 +555,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 100
+  field of view: 80
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
