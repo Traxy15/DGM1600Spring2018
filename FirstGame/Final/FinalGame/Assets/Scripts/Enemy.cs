@@ -14,8 +14,8 @@ public class Enemy : MonoBehaviour {
 		
 	}
 
-	private void OnParticleCollision(GameObject other)
+	void OnParticleCollision(GameObject other)
 	{
-		print("Particles are a direct hit" + gameObject.name);
+		Destroy(gameObject);
 	}
 }
