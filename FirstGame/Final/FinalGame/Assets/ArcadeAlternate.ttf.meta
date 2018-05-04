@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1a0a1ccca914448cbafa32f3a485e0d
+guid: 51220b780e18d42b89410b805c3ee5ac
 timeCreated: 1525406789
 licenseType: Free
 TrueTypeFontImporter:
@@ -13,7 +13,8 @@ TrueTypeFontImporter:
   fontName: Arcade Alternate
   fontNames:
   - Arcade Alternate
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b1a0a1ccca914448cbafa32f3a485e0d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

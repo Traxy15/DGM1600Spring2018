@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79fa883ea0b4f46c186f48f5caf1ed00
+guid: b929a37fb19b6439fa5d38fd9e7b113e
 timeCreated: 1525406665
 licenseType: Free
 TrueTypeFontImporter:
@@ -13,7 +13,8 @@ TrueTypeFontImporter:
   fontName: Karmatic Arcade
   fontNames:
   - Karmatic Arcade
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 79fa883ea0b4f46c186f48f5caf1ed00, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
